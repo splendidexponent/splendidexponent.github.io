@@ -1,2 +1,2 @@
-# splendidexponent.github.io
+# Mohan Sandesh
 My blog
