@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Mohan Sandesh
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! I'm a full stack developer.
+  I'm a full stack developer. I have experience in PHP, JavaScript,
+  and Ruby on Rails. I write about things I learn in programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://splendidexponent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  splendidexponent
