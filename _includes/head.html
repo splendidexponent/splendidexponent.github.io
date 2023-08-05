@@ -1,0 +1,32 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            var colors = [
+                            "#0d6efd", "#6610f2", "#6f42c1",
+                            "#dc3545", "#fd7e14", "#ffc107",
+                            "#198754", "#20c997", "#0dcaf0",
+                            "#adb5bd", "#000000"
+                        ];
+            var el = document.getElementsByClassName("site-header")[0];
+            var style = el.style;
+
+            style.borderTopColor = colors[Math.floor(Math.random()*colors.length)];
+        });
+    </script>
+    <style>
+        .site-header{
+            border-top-width: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
