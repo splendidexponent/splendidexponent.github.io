@@ -20,8 +20,8 @@
 
 title: Mohan Sandesh
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a full stack developer. I have experience in PHP, JavaScript,
-  and Ruby on Rails. I write about things I learn in programming.
+  I'm a full stack developer, in PHP, JavaScript,
+  and Ruby on Rails. I write about programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://splendidexponent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  splendidexponent

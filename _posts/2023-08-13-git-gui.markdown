@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Git CLI vs GitHub Desktop"
+---
+
+I used `git-cli` comfortably for a very long time. I switched to [GitHub Desktop](https://desktop.github.com/) and like it.
+
+In `git-cli`, when I wanted to see detailed commit history, I used to use `gitk` GUI. It came bundled with `git`. With GitHub Desktop everything is together in one GUI application.
+
+In GitHub desktop, there is also no need to setup SSH keys. It uses oAuth and setsup GitHub Desktop as a GitHub application. Thus not needing SSH keys.
+
+Also, worth mentioning about [Sourcetree](https://www.sourcetreeapp.com/). Another Git GUI for BitBucket.
+
+### Tip
+
+If you are using VSCode and need path to `git` executable, you can use GitHub Desktop bundled `git`. There is no need to install `git` separately.
+
+```
+"git.path": "C:\\Users\\YOU\\AppData\\Local\\GitHubDesktop\\app-3.2.6\\resources\\app\\git\\cmd\\git.exe"
+```

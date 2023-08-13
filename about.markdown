@@ -8,4 +8,4 @@ Hello! I am a full stack web developer. I have worked extensively in PHP, JavaSc
 
 This is my personal blog. Here I write about things I learn in programming.
 
-This blog is generated using Jekyll and hosted on GitHub Pages. I'm using the minima theme with very slight modifications.
+This blog is generated using Jekyll and hosted on GitHub Pages. I'm using the minima theme with very slight modification.
