@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
 
 minima:
-  date_format: "%a, %b %e, %Y"
+  date_format: "%b %e, %a, %Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
